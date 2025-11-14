@@ -1,6 +1,9 @@
 
 # MATH CALCULATION CLI TOOL
 # USING NODE JS
+
+![App ScreenShot](<img width="598" height="155" alt="image" src="https://github.com/user-attachments/assets/cfe3dcf2-4657-477b-b492-0e0b043822b4" />)
+
 ## Author
 
 - [@kunal Bhalerao](https://github.com/iamKunalBhalerao)
@@ -85,6 +88,8 @@ Welcome to the Math Calculator!
   Addion of No.1 and No.2 is : Answer
 ```
 
+![App Screenshot](<img width="682" height="343" alt="Screenshot 2025-11-14 135549" src="https://github.com/user-attachments/assets/f91c9f33-31a7-4bee-b59d-ff47230b2529" />)
+
 ## Takes two numbers and returns the Choice based results.
 
 # Direct Command based calculation
@@ -103,7 +108,6 @@ Welcome to the Math Calculator!
  | |  | |/ ___ \| | |  _  |_____| |___| |___ | |
  |_|  |_/_/   \_\_| |_| |_|      \____|_____|___|
 
-
 Welcome to the Math Calculator!
 
 √ Enter the first number: ... No.1
@@ -121,6 +125,7 @@ Welcome to the Math Calculator!
 ```http
   Addion of No.1 and No.2 is : Answer
 ```
+![App Screenshot](<img width="523" height="273" alt="image" src="https://github.com/user-attachments/assets/cfc7b35e-f13f-432b-a67e-63a8d71d76ff" />)
 
 ### Subtraction
 
@@ -155,6 +160,8 @@ Welcome to the Math Calculator!
   Subtraction of No.1 and No.2 is : Answer
 ```
 
+![App Screenshot](<img width="550" height="280" alt="image" src="https://github.com/user-attachments/assets/6ecc2dfd-6f15-4131-be5e-9267ce49ef30" />)
+
 ### Multiplication
 
 ```http
@@ -187,6 +194,7 @@ Welcome to the Math Calculator!
 ```http
   Multiplication of No.1 and No.2 is : Answer
 ```
+![App Screenshot](<img width="566" height="276" alt="image" src="https://github.com/user-attachments/assets/4adca09c-8389-4288-a8ff-2f27af88c853" />)
 
 ### Divsion
 
@@ -220,6 +228,8 @@ Welcome to the Math Calculator!
 ```http
   Divsion of No.1 and No.2 is : Answer
 ```
+
+![App Screenshot](<img width="543" height="273" alt="image" src="https://github.com/user-attachments/assets/785b00fd-d076-4d00-86ed-d0709ffc77d1" />)
 
 ### Run command, Give Inputs and get back result.
 # Contributing
