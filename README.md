@@ -229,7 +229,38 @@ Welcome to the Math Calculator!
   Divsion of No.1 and No.2 is : Answer
 ```
 
-![App Screenshot](https://github-production-user-asset-6210df.s3.amazonaws.com/141581585/514316157-785b00fd-d076-4d00-86ed-d0709ffc77d1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20251114%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251114T084108Z&X-Amz-Expires=300&X-Amz-Signature=8a8dfef5524a888adbe355b89276912efc14bfab5184df6813fc1b7780e34a6b&X-Amz-SignedHeaders=host)
+### Check
+
+```http
+  mathcli check
+```
+
+## Output
+```http
+  __  __    _  _____ _   _        ____ _     ___ 
+ |  \/  |  / \|_   _| | | |      / ___| |   |_ _|
+ | |\/| | / _ \ | | | |_| |_____| |   | |    | |
+ | |  | |/ ___ \| | |  _  |_____| |___| |___ | |
+ |_|  |_/_/   \_\_| |_| |_|      \____|_____|___|
+
+
+Welcome to the Math Calculator!
+
+√ Enter the first number: ... No.1
+√ Enter the second number: ... No.2
+
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `No.1` | `Number` | **Required**. First No. |
+| `No.2` | `Number` | **Required**. Second No. |
+
+#### Result
+
+```http
+  No.1 is less than No.2
+```
 
 ### Run command, Give Inputs and get back result.
 # Contributing
