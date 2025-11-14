@@ -229,10 +229,10 @@ Welcome to the Math Calculator!
   Divsion of No.1 and No.2 is : Answer
 ```
 
-### Check
+### COMPARE
 
 ```http
-  mathcli check
+  mathcli compare
 ```
 
 ## Output
