@@ -5,6 +5,7 @@ import prompts from "prompts";
 import figlet from "figlet";
 import {
   cristal,
+  fruit,
   instagram,
   mind,
   morning,
@@ -12,6 +13,7 @@ import {
   pastel,
   retro,
   summer,
+  vice,
 } from "gradient-string";
 import chalk from "chalk";
 
@@ -114,6 +116,30 @@ async function start() {
       );
     });
 
+  // MULTIPLY
+  program
+    .command("check")
+    .description("Check Grater than")
+    .action(async () => {
+      if (num1 > num2) {
+        console.log(
+          `${yellowBright(num1)} is ${fruit("greater than")} ${yellowBright(
+            num2
+          )}`
+        );
+      } else if (num1 < num2) {
+        console.log(
+          `${yellowBright(num1)} is ${morning("less than")} ${yellowBright(
+            num2
+          )}`
+        );
+      } else {
+        console.log(
+          `${yellowBright(num1)} is ${vice("equal")} to ${yellowBright(num2)}`
+        );
+      }
+    });
+
   // CHOICE
   program
     .command("choice")
@@ -129,6 +155,7 @@ async function start() {
             { title: `${cristal("Subtract")}`, value: "subtract" },
             { title: `${summer("Multiply")}`, value: "multiply" },
             { title: `${retro("Divide")}`, value: "divide" },
+            { title: `${vice("check")}`, value: "check" },
           ],
         },
         {
@@ -159,15 +186,45 @@ async function start() {
           }
           result = num1 / num2;
           break;
+        case "check":
+          if (num1 > num2) {
+            console.log(
+              `\n${yellowBright(num1)} is ${fruit(
+                "greater than"
+              )} ${yellowBright(num2)}`
+            );
+
+            result = `${num1} is greater than ${num2}`;
+          } else if (num1 < num2) {
+            console.log(
+              `\n${yellowBright(num1)} is ${morning(
+                "less than"
+              )} ${yellowBright(num2)}`
+            );
+
+            result = `${num1} is less than ${num2}`;
+          } else {
+            console.log(
+              `\n${yellowBright(num1)} is ${vice("equal")} to ${yellowBright(
+                num2
+              )}`
+            );
+
+            result = `${num1} is equal to ${num2}`;
+          }
+          //   result = "num1 & num2 checked";
+          break;
         default:
           console.log(redBright("Unknown operation selected."));
           process.exit(1);
       }
 
       console.log(
-        `\n \n ${operation}ion of ${morning(num1)} and ${morning(
-          num2
-        )} is : ${cristal(result)}`
+        `\n ${
+          operation === "add" || operation === "subtract"
+            ? `${operation}ion`
+            : operation
+        } of ${morning(num1)} and ${morning(num2)} is : ${cristal(result)}`
       );
     });
 
