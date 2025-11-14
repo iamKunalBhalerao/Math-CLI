@@ -26,7 +26,7 @@ const yellowBright = chalk.yellowBright;
 async function doStuff() {
   const text = await figlet.text("MATH-CLI");
   console.log(instagram(text));
-  console.log(pastel("\nWelcome to the Two No. Sum Calculator!\n"));
+  console.log(pastel("\nWelcome to the Math Calculator!\n"));
 }
 
 async function start() {
