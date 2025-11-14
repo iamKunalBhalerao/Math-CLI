@@ -116,10 +116,10 @@ async function start() {
       );
     });
 
-  // MULTIPLY
+  // COMPARE
   program
-    .command("check")
-    .description("Check Grater than")
+    .command("compare")
+    .description("Compare Two Nubers")
     .action(async () => {
       if (num1 > num2) {
         console.log(
@@ -155,7 +155,7 @@ async function start() {
             { title: `${cristal("Subtract")}`, value: "subtract" },
             { title: `${summer("Multiply")}`, value: "multiply" },
             { title: `${retro("Divide")}`, value: "divide" },
-            { title: `${vice("check")}`, value: "check" },
+            { title: `${vice("compare")}`, value: "compare" },
           ],
         },
         {
@@ -186,7 +186,7 @@ async function start() {
           }
           result = num1 / num2;
           break;
-        case "check":
+        case "compare":
           if (num1 > num2) {
             console.log(
               `\n${yellowBright(num1)} is ${fruit(
